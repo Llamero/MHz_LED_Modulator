@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\CAD designs\Feller Lab\MHz_LED_Modulator\MHz_LED_Modulator.sch</source>
+    <date>12/6/2017 4:29:58 PM</date>
+    <tool>Eeschema (2017-11-06 revision 9df4ae65e)-makepkg</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>lun. 30 mars 2015</date>
+        <source>MHz_LED_Modulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="MHz_LED_Modulator-cache" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="MHz_LED_Modulator-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="MHz_LED_Modulator-cache" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/85_Web.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries LLC</field>
+        <field name="Manufacturer Part #">85</field>
+        <field name="Digikey Part #">1528-1074-ND</field>
+        <field name="Cost">1.95</field>
+        <field name="NOTE:">Comes as complete set, only buy 1 </field>
+      </fields>
+      <libsource lib="MHz_LED_Modulator-cache" part="CONN_01X10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="DAC1">
+      <value>LTC2630-H</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/2630fg.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Linear Technology</field>
+        <field name="Manufacturer Part #">LTC2630ACSC6-HZ12#TRMPBF</field>
+        <field name="Digikey Part #">LTC2630ACSC6-HZ12#TRMPBFCT-ND</field>
+        <field name="Cost">4.65</field>
+        <field name="NOTE:">4.095 Vref, 12 bit, SPI</field>
+      </fields>
+      <libsource lib="ltc2630" part="LTC2630"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A065322</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RT1206BRD075KL</field>
+        <field name="Digikey Part #">YAG5090CT-ND</field>
+        <field name="Cost">0.56</field>
+        <field name="NOTE:">Thin film</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0674FE</tstamp>
+    </comp>
+    <comp ref="OA1">
+      <value>LTC6268-10</value>
+      <footprint>Ben_Custom:LTC6268IS6-10-TR</footprint>
+      <datasheet>http://www.linear.com/docs/46371</datasheet>
+      <fields>
+        <field name="Manufacturer">Linear Technology</field>
+        <field name="Manufacturer Part #">LTC6268IS6-10#TRMPBF</field>
+        <field name="Digikey Part #">LTC6268IS6-10#TRMPBFCT-ND</field>
+        <field name="Cost">8.55</field>
+        <field name="NOTE:">1000V/us 5V rail-to-rail</field>
+      </fields>
+      <libsource lib="MHz_LED_Modulator-cache" part="LTC6268-10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A068772</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.22uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK325B7224KN-T&amp;fileName=HMK325B7224KN-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part #">HMK325B7224KN-T</field>
+        <field name="Digikey Part #">587-1363-1-ND</field>
+        <field name="Cost">0.52</field>
+        <field name="NOTE:">Resonant at 10 MHz</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A068D72</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <datasheet>http://www.susumu.co.jp/common/pdf/CPA.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Susumu</field>
+        <field name="Manufacturer Part #">CPA2512Q4R70FS-T10</field>
+        <field name="Digikey Part #">408-1661-1-ND</field>
+        <field name="Cost">2.93</field>
+        <field name="NOTE:">16W</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A069210</tstamp>
+    </comp>
+    <comp ref="MN1">
+      <value>IRLHM630</value>
+      <footprint>Ben_Custom:IRLHM630</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irlhm630pbf.pdf?fileId=5546d462533600a401535663951725a5</datasheet>
+      <fields>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part #">IRLHM630TRPBF</field>
+        <field name="Digikey Part #">IRLHM630TRPBFCT-ND</field>
+        <field name="Cost">1.05</field>
+        <field name="NOTE:">PQFN 3.3*3.3 2.7W(a) 16W(c)</field>
+      </fields>
+      <libsource lib="transistors" part="BSC026N08NS5ATMA1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06B380</tstamp>
+    </comp>
+    <comp ref="CP1">
+      <value>5300uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=lbk</datasheet>
+      <fields>
+        <field name="Manufacturer">United Chemi-Con</field>
+        <field name="Manufacturer Part #">ELBK250ELL532AM20S</field>
+        <field name="Digikey Part #">565-4338-ND</field>
+        <field name="Cost">3.32</field>
+        <field name="NOTE:">2.5A at 100kHz - 5000 hours at 105oC</field>
+      </fields>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06BD17</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">CC1210MKX5R7BB107</field>
+        <field name="Digikey Part #">311-2052-1-ND</field>
+        <field name="Cost">1.82</field>
+        <field name="NOTE:">Resonant at approx 1 MHz</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06C2AF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK325BJ106KN-T&amp;fileName=EMK325BJ106KN-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part #">EMK325BJ106KN-T</field>
+        <field name="Digikey Part #">587-1376-1-ND</field>
+        <field name="Cost">0.34</field>
+        <field name="NOTE:">Resonant at 1 MHz</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06C5A8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part #">UMK325B7105KH-T</field>
+        <field name="Digikey Part #">587-1366-1-ND</field>
+        <field name="Cost">0.36</field>
+        <field name="NOTE:">Resonant at 8 MHz</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06C5EE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>LED connect</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/909/909technicaldrawing.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries LLC</field>
+        <field name="Manufacturer Part #">909</field>
+        <field name="Digikey Part #">1528-1572-ND</field>
+        <field name="Cost">4.95</field>
+        <field name="NOTE:">Cat5e jack</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x02_Male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06DE19</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>heatsink</value>
+      <footprint>Ben_Custom:40x40mm-heatsink_only-half-pad</footprint>
+      <datasheet>https://www.alliedelec.com/m/d/1151ccd4c429dd13c6b9df1c39e593fe.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Wakefield-Vette</field>
+        <field name="Manufacturer Part #">910-40-2-23-2-B-0</field>
+        <field name="Digikey Part #">345-1161-ND</field>
+        <field name="Cost">6.65</field>
+        <field name="NOTE:">Clip is too big - needs thermal glue</field>
+      </fields>
+      <libsource lib="MHz_LED_Modulator-cache" part="heatsink"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0AABBD</tstamp>
+    </comp>
+    <comp ref="A5">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0C0879</tstamp>
+    </comp>
+    <comp ref=".3">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0BF917</tstamp>
+    </comp>
+    <comp ref=".2">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0BF9F5</tstamp>
+    </comp>
+    <comp ref=".4">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0BFA4D</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0C27CC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.22uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK325B7224KN-T&amp;fileName=HMK325B7224KN-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part #">HMK325B7224KN-T</field>
+        <field name="Digikey Part #">587-1363-1-ND</field>
+        <field name="Cost">0.52</field>
+        <field name="NOTE:">Resonant at 10 MHz</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0CE310</tstamp>
+    </comp>
+    <comp ref="A4">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0D440F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Manufacturer Part #">CUS10S30,H3F</field>
+        <field name="Digikey Part #">CUS10S30H3FCT-ND</field>
+        <field name="Cost">0.43</field>
+        <field name="NOTE:">100uA leakage currrent - 30V</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0D4467</tstamp>
+    </comp>
+    <comp ref="A3">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0D44C1</tstamp>
+    </comp>
+    <comp ref="DAC-0">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Mueller Electric Co</field>
+        <field name="Manufacturer Part #">BU-P4969</field>
+        <field name="Digikey Part #">314-1190-ND</field>
+        <field name="Cost">7.99</field>
+        <field name="NOTE:">20AWG wire - 1mm diameter</field>
+      </fields>
+      <libsource lib="conn" part="Conn_Coaxial_Power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0DA3D0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.22uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK325B7224KN-T&amp;fileName=HMK325B7224KN-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer Part #">HMK325B7224KN-T</field>
+        <field name="Digikey Part #">587-1363-1-ND</field>
+        <field name="Cost">0.52</field>
+        <field name="NOTE:">Resonant at 10 MHz</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0DB530</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>Ext. ground wire</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0DDB6A</tstamp>
+    </comp>
+    <comp ref="V1">
+      <value>Ext. 12V wire</value>
+      <footprint>Ben_Custom:SolderWirePad_single_1-5mmDrill-square</footprint>
+      <datasheet>http://www.cui.com/product/resource/sdi40-u.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Manufacturer Part #">SDI40-12-UC-P5</field>
+        <field name="Digikey Part #">102-4112-ND</field>
+        <field name="Cost">23.06</field>
+        <field name="NOTE:">12v 200mV p-p 3A max</field>
+      </fields>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0E5D96</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Manufacturer Part #">CUS10S30,H3F</field>
+        <field name="Digikey Part #">CUS10S30H3FCT-ND</field>
+        <field name="Cost">0.43</field>
+        <field name="NOTE:">100uA leakage currrent - 30V</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F9B35</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Manufacturer Part #">CUS10S30,H3F</field>
+        <field name="Digikey Part #">CUS10S30H3FCT-ND</field>
+        <field name="Cost">0.43</field>
+        <field name="NOTE:">100uA leakage currrent - 30V</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F9B93</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>Thermistor</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://datasheets.avx.com/nc12-20.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer Part #">NC20K00103KBA</field>
+        <field name="Digikey Part #">478-10982-1-ND</field>
+        <field name="Cost">0.43</field>
+        <field name="NOTE:">Excel file of response curve voltages</field>
+      </fields>
+      <libsource lib="device" part="Thermistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D1EA9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RT1206BRD075KL</field>
+        <field name="Digikey Part #">YAG5090CT-ND</field>
+        <field name="Cost">0.56</field>
+        <field name="NOTE:">Thin film</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D3E42</tstamp>
+    </comp>
+    <comp ref="MN2">
+      <value>BSH103</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BSH103.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Manufacturer Part #">BSH103,235</field>
+        <field name="Digikey Part #">1727-1883-1-ND</field>
+        <field name="Cost">0.44</field>
+        <field name="NOTE:">0.85A max</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20E72A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Fan connect</value>
+      <footprint>Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC</footprint>
+      <datasheet>http://www.delta-fan.com/Download/Spec/AFB0412VHA-A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Delta Electronics</field>
+        <field name="Manufacturer Part #">AFB0412VHA-A</field>
+        <field name="Digikey Part #">603-1898-ND</field>
+        <field name="Cost">9.36</field>
+        <field name="NOTE:">9.3 CFM 60.3Pa</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x02_Male"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20E9F3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>Diodes_SMD:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Manufacturer Part #">CUS10S30,H3F</field>
+        <field name="Digikey Part #">CUS10S30H3FCT-ND</field>
+        <field name="Cost">0.43</field>
+        <field name="NOTE:">100uA leakage currrent - 30V</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A20F3E4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TS5A3166</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ts5a3166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part #">TS5A3166DCKR</field>
+        <field name="Digikey Part #">296-17741-1-ND</field>
+        <field name="Cost">0.56</field>
+        <field name="NOTE:">0.9 Ohm  - 10 ns switch time</field>
+      </fields>
+      <libsource lib="MHz_LED_Modulator-cache" part="TS5A3166"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2676EB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TEST_1P</value>
+      <footprint>Ben_Custom:CC_silkscreen</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Arduino%20PDFs/A000046.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Arduino</field>
+        <field name="Manufacturer Part #">A000066</field>
+        <field name="Digikey Part #">1050-1024-ND</field>
+        <field name="Cost">23.38</field>
+        <field name="NOTE:">Official Arduino Uno</field>
+      </fields>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A27F244</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>TEST_1P</value>
+      <footprint>Ben_Custom:CC_Attribution</footprint>
+      <datasheet>http://www.hammondmfg.com/pdf/1594C.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Hammond Manufacturing</field>
+        <field name="Manufacturer Part #">1594CBK</field>
+        <field name="Digikey Part #">HM228-ND</field>
+        <field name="Cost">10.26</field>
+        <field name="NOTE:">Fitted enclosure for ducted flow over heatsink</field>
+      </fields>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A27F574</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>TEST_1P</value>
+      <footprint>Ben_Custom:CC_Share_alike</footprint>
+      <datasheet>http://www.assmann-wsw.com/fileadmin/datasheets/DK-1511-xxx_xx.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Assmann WSW Components</field>
+        <field name="Manufacturer Part #">DK-1511-001/BL</field>
+        <field name="Digikey Part #">AE10476-ND</field>
+        <field name="Cost">1.40</field>
+        <field name="NOTE:">One cable can be split between two setups</field>
+      </fields>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A27F5DE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MHz_LED_Modulator-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHz_LED_Modulator-cache" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHz_LED_Modulator-cache" part="CONN_01X10">
+      <footprints>
+        <fp>Pin_Header_Straight_1X10</fp>
+        <fp>Pin_Header_Angled_1X10</fp>
+        <fp>Socket_Strip_Straight_1X10</fp>
+        <fp>Socket_Strip_Angled_1X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="CSD17578Q5A">
+      <aliases>
+        <alias>CSD17579Q5A</alias>
+        <alias>CSD16570Q5B</alias>
+        <alias>CSD17577Q5A</alias>
+        <alias>CSD18509Q5B</alias>
+        <alias>CSD18540Q5B</alias>
+        <alias>CSD17573Q5B</alias>
+        <alias>CSD17576Q5B</alias>
+        <alias>CSD19534Q5A</alias>
+        <alias>CSD17570Q5B</alias>
+        <alias>CSD19533Q5A</alias>
+        <alias>CSD19502Q5B</alias>
+        <alias>CSD19532Q5B</alias>
+        <alias>CSD19531Q5A</alias>
+        <alias>CSD18563Q5A</alias>
+        <alias>CSD18537NQ5A</alias>
+        <alias>CSD18532NQ5B</alias>
+        <alias>CSD17556Q5B</alias>
+        <alias>CSD18502Q5B</alias>
+        <alias>CSD18532Q5B</alias>
+        <alias>CSD17552Q5A</alias>
+        <alias>CSD17559Q5</alias>
+        <alias>CSD18534Q5A</alias>
+        <alias>CSD18533Q5A</alias>
+        <alias>CSD17555Q5A</alias>
+        <alias>CSD17551Q5A</alias>
+        <alias>CSD18501Q5A</alias>
+        <alias>CSD18503Q5A</alias>
+        <alias>CSD18504Q5A</alias>
+        <alias>CSD18531Q5A</alias>
+        <alias>CSD17553Q5A</alias>
+        <alias>CSD16342Q5A</alias>
+        <alias>CSD17322Q5A</alias>
+        <alias>CSD17327Q5A</alias>
+        <alias>CSD17522Q5A</alias>
+        <alias>CSD17527Q5A</alias>
+        <alias>CSD17501Q5A</alias>
+        <alias>CSD17506Q5A</alias>
+        <alias>CSD17505Q5A</alias>
+        <alias>CSD17507Q5A</alias>
+        <alias>CSD17510Q5A</alias>
+        <alias>CSD17311Q5</alias>
+        <alias>CSD17312Q5</alias>
+        <alias>CSD17303Q5</alias>
+        <alias>CSD16415Q5</alias>
+        <alias>CSD17302Q5A</alias>
+        <alias>CSD17305Q5A</alias>
+        <alias>CSD17306Q5A</alias>
+        <alias>CSD17307Q5A</alias>
+        <alias>CSD17310Q5A</alias>
+        <alias>CSD17301Q5A</alias>
+        <alias>CSD16408Q5</alias>
+        <alias>CSD16322Q5</alias>
+        <alias>CSD16325Q5</alias>
+        <alias>CSD16321Q5</alias>
+        <alias>CSD16414Q5</alias>
+        <alias>CSD16401Q5</alias>
+        <alias>CSD16403Q5A</alias>
+        <alias>CSD16404Q5A</alias>
+        <alias>CSD16407Q5</alias>
+        <alias>CSD16410Q5A</alias>
+        <alias>CSD16412Q5A</alias>
+        <alias>CSD16413Q5A</alias>
+        <alias>BSC026N08NS5ATMA1</alias>
+        <alias>BSC030N08NS5ATMA1</alias>
+        <alias>BSC035N10NS5ATMA1</alias>
+        <alias>BSC037N08NS5ATMA1</alias>
+        <alias>BSC040N10NS5ATMA1</alias>
+        <alias>BSC040N08NS5ATMA1</alias>
+        <alias>BSC046N10NS3GATMA1</alias>
+        <alias>BSC047N08NS3GATMA1</alias>
+        <alias>BSC052N08NS5ATMA1</alias>
+        <alias>BSC057N08NS3GATMA1</alias>
+        <alias>BSC060N10NS3GATMA1</alias>
+        <alias>BSC061N08NS5ATMA1</alias>
+        <alias>BSC070N10NS3GATMA1</alias>
+        <alias>BSC070N10NS5ATMA1</alias>
+        <alias>BSC072N08NS5ATMA1</alias>
+        <alias>BSC079N10NSGATMA1</alias>
+        <alias>BSC082N10LSGATMA1</alias>
+        <alias>BSC098N10NS5ATMA1</alias>
+        <alias>BSC100N10NSFGATMA1</alias>
+        <alias>BSC105N10LSFGATMA1</alias>
+        <alias>BSC109N10NS3GATMA1</alias>
+        <alias>BSC117N08NS5ATMA1</alias>
+        <alias>BSC118N10NSGATMA1</alias>
+        <alias>BSC123N08NS3GATMA1</alias>
+        <alias>BSC123N10LSGATMA1</alias>
+        <alias>BSC159N10LSFGATMA1</alias>
+        <alias>BSC160N10NS3GATMA1</alias>
+        <alias>BSC196N10NSGATMA1</alias>
+        <alias>BSC252N10NSFGATMA1</alias>
+        <alias>BSC265N10LSFGATMA1</alias>
+        <alias>BSC340N08NS3GATMA1</alias>
+        <alias>BSC440N10NS3GATMA1</alias>
+        <alias>BSC028N06LS3</alias>
+      </aliases>
+      <description>NexFET N-Channel Power MOSFET, Vds 30V, Rdson 6.9mOhm, Id 25A, Qg (typ) 7.9nC, SON8 5x6mm</description>
+      <docs>http://www.ti.com/lit/gpn/csd17578q5a</docs>
+      <footprints>
+        <fp>TDSON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD17578Q5A</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:TDSON-8-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_Coaxial_Power">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_Power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ltc2630" part="LTC2630">
+      <fields>
+        <field name="Reference">12-bit_DAC_4V_ref_SPI</field>
+        <field name="Value">LTC2630</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS~/LD" type="input"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="SDI" type="input"/>
+        <pin num="4" name="Vcc" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Vout" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHz_LED_Modulator-cache" part="LTC6268-10">
+      <fields>
+        <field name="Reference">1000V/us_5V_rail_to_rail</field>
+        <field name="Value">LTC6268-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="-IN" type="input"/>
+        <pin num="5" name="~SHDN" type="NotConnected"/>
+        <pin num="6" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFETwith substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHz_LED_Modulator-cache" part="TS5A3166">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TS5A3166</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IN" type="input"/>
+        <pin num="5" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Thermistor">
+      <description>Thermistor, temperature-dependent resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHz_LED_Modulator-cache" part="heatsink">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">heatsink</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Heat" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="MHz_LED_Modulator-cache">
+      <uri>D:\CAD designs\Feller Lab\MHz_LED_Modulator\MHz_LED_Modulator-cache.lib</uri>
+    </library>
+    <library logical="ltc2630">
+      <uri>C:\Users\Ben\Documents\KiCAD Library\ltc2630.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(A4-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="A4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(A5-Pad1)">
+      <node ref="A5" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(A3-Pad1)">
+      <node ref="A3" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="4" name="/NC_GND">
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="5" name="/Reset">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="6" name="/1(Tx)">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="7" name="/0(Rx)">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="8" name="/A5(SCL2)">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="9" name="/A4(SDA2)">
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="10" name="/7">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="11" name="/6">
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref=".4" pin="2"/>
+      <node ref=".2" pin="2"/>
+      <node ref="A4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="A3" pin="2"/>
+      <node ref="TH1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="OA1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="MN2" pin="2"/>
+      <node ref="DAC1" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="G1" pin="1"/>
+      <node ref="DAC-0" pin="2"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="6"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="A5" pin="2"/>
+      <node ref=".3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="CP1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="MN2" pin="3"/>
+    </net>
+    <net code="14" name="/Vin">
+      <node ref="J1" pin="1"/>
+      <node ref="V1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="P1" pin="8"/>
+      <node ref="J2" pin="1"/>
+      <node ref="CP1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="15" name="/Vdac2">
+      <node ref="R2" pin="1"/>
+      <node ref="OA1" pin="3"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="16" name="/Gate">
+      <node ref="OA1" pin="1"/>
+      <node ref="MN1" pin="4"/>
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="17" name="/AREF">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="18" name="/Isense">
+      <node ref="MN1" pin="1"/>
+      <node ref="MN1" pin="3"/>
+      <node ref="MN1" pin="2"/>
+      <node ref="OA1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="19" name="/2(Gated_PMT_Out)">
+      <node ref="P4" pin="6"/>
+      <node ref=".2" pin="1"/>
+    </net>
+    <net code="20" name="/3(Fast_Mirror_Clock_In)">
+      <node ref=".3" pin="1"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="21" name="/4(Shutter_In)">
+      <node ref=".4" pin="1"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="22" name="/5">
+      <node ref="MN2" pin="1"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="23" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="24" name="/Vdac1">
+      <node ref="SW1" pin="1"/>
+      <node ref="DAC1" pin="6"/>
+      <node ref="C6" pin="1"/>
+      <node ref="DAC-0" pin="1"/>
+    </net>
+    <net code="25" name="Net-(OA1-Pad5)">
+      <node ref="OA1" pin="5"/>
+    </net>
+    <net code="26" name="/13(SCK)">
+      <node ref="P3" pin="5"/>
+      <node ref="DAC1" pin="2"/>
+    </net>
+    <net code="27" name="/12(MISO)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="28" name="/11(**/MOSI)">
+      <node ref="P3" pin="7"/>
+      <node ref="DAC1" pin="3"/>
+    </net>
+    <net code="29" name="/10(**/SS)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="30" name="/9(DAC-CS)">
+      <node ref="P3" pin="9"/>
+      <node ref="DAC1" pin="1"/>
+    </net>
+    <net code="31" name="/8(SPST-TTL)">
+      <node ref="P3" pin="10"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="33" name="/A4(SDA1)">
+      <node ref="P2" pin="5"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="34" name="/A3">
+      <node ref="D1" pin="1"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="35" name="/A2">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="36" name="/A1">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="37" name="/A0(Temp_Sense)">
+      <node ref="TH1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="38" name="+3V3">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="39" name="+5V">
+      <node ref="C5" pin="1"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="DAC1" pin="4"/>
+      <node ref="OA1" pin="6"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="40" name="/IOREF">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="41" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="42" name="/Heat_Sink">
+      <node ref="MN1" pin="5"/>
+      <node ref="MN1" pin="5"/>
+      <node ref="MN1" pin="5"/>
+      <node ref="MN1" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,41 @@
+Reference, Value, Footprint, Datasheet, Manufacturer, Manufacturer Part #, Digikey Part #, Cost, NOTE:
+V1,Ext. 12V wire,Ben_Custom:SolderWirePad_single_1-5mmDrill-square,http://www.cui.com/product/resource/sdi40-u.pdf,CUI Inc.,SDI40-12-UC-P5,102-4112-ND,23.06,12v 200mV p-p 3A max
+J3,TEST_1P,Ben_Custom:CC_silkscreen,https://media.digikey.com/pdf/Data%20Sheets/Arduino%20PDFs/A000046.pdf,Arduino,A000066,1050-1024-ND,23.38,Official Arduino Uno
+P3,Digital,Socket_Arduino_Uno:Socket_Strip_Arduino_1x10,https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/85_Web.pdf,Adafruit Industries LLC,85,1528-1074-ND,1.95,"Comes as complete set, only buy 1 "
+J1,LED connect,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,https://cdn-shop.adafruit.com/product-files/909/909technicaldrawing.pdf,Adafruit Industries LLC,909,1528-1572-ND,4.95,Cat5e jack
+MN2,BSH103,TO_SOT_Packages_SMD:SOT-23,https://assets.nexperia.com/documents/data-sheet/BSH103.pdf,Nexperia USA Inc.,"BSH103,235",1727-1883-1-ND,0.44,0.85A max
+SW1,TS5A3166,TO_SOT_Packages_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/ds/symlink/ts5a3166.pdf,Texas Instruments,TS5A3166DCKR,296-17741-1-ND,0.56,0.9 Ohm  - 10 ns switch time
+C1,100uF,Capacitors_SMD:C_1210,http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf,Yageo,CC1210MKX5R7BB107,311-2052-1-ND,1.82,Resonant at approx 1 MHz
+A5,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+0.3,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+0.2,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+0.4,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+A4,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+A3,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+DAC-0,Conn_Coaxial_Power,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://muellerelectric.com/wp-content/uploads/BU-P4969.pdf,Mueller Electric Co,BU-P4969,314-1190-ND,7.99,20AWG wire - 1mm diameter
+U1,heatsink,Ben_Custom:40x40mm-heatsink_only-half-pad,https://www.alliedelec.com/m/d/1151ccd4c429dd13c6b9df1c39e593fe.pdf,Wakefield-Vette,910-40-2-23-2-B-0,345-1161-ND,6.65,Clip is too big - needs thermal glue
+R1,4.7,Resistors_SMD:R_2512,http://www.susumu.co.jp/common/pdf/CPA.pdf,Susumu,CPA2512Q4R70FS-T10,408-1661-1-ND,2.93,16W
+TH1,Thermistor,Resistors_SMD:R_1206,http://datasheets.avx.com/nc12-20.pdf,AVX Corporation,NC20K00103KBA,478-10982-1-ND,0.43,Excel file of response curve voltages
+CP1,5300uF,Capacitors_THT:CP_Radial_D18.0mm_P7.50mm,http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=lbk,United Chemi-Con,ELBK250ELL532AM20S,565-4338-ND,3.32,2.5A at 100kHz - 5000 hours at 105oC
+C6,0.22uF,Capacitors_SMD:C_1210,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK325B7224KN-T&fileName=HMK325B7224KN-T_SS&mode=specSheetDownload,Taiyo Yuden,HMK325B7224KN-T,587-1363-1-ND,0.52,Resonant at 10 MHz
+C5,0.22uF,Capacitors_SMD:C_1210,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK325B7224KN-T&fileName=HMK325B7224KN-T_SS&mode=specSheetDownload,Taiyo Yuden,HMK325B7224KN-T,587-1363-1-ND,0.52,Resonant at 10 MHz
+C4,0.22uF,Capacitors_SMD:C_1210,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK325B7224KN-T&fileName=HMK325B7224KN-T_SS&mode=specSheetDownload,Taiyo Yuden,HMK325B7224KN-T,587-1363-1-ND,0.52,Resonant at 10 MHz
+C3,1uF,Capacitors_SMD:C_1210,http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf,Taiyo Yuden,UMK325B7105KH-T,587-1366-1-ND,0.36,Resonant at 8 MHz
+C2,10uF,Capacitors_SMD:C_1210,http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK325BJ106KN-T&fileName=EMK325BJ106KN-T_SS&mode=specSheetDownload,Taiyo Yuden,EMK325BJ106KN-T,587-1376-1-ND,0.34,Resonant at 1 MHz
+J2,Fan connect,Ben_Custom:SolderWirePad_2x_1-2mmDrill-BNC,http://www.delta-fan.com/Download/Spec/AFB0412VHA-A.pdf,Delta Electronics,AFB0412VHA-A,603-1898-ND,9.36,9.3 CFM 60.3Pa
+J5,TEST_1P,Ben_Custom:CC_Share_alike,http://www.assmann-wsw.com/fileadmin/datasheets/DK-1511-xxx_xx.pdf,Assmann WSW Components,DK-1511-001/BL,AE10476-ND,1.4,One cable can be split between two setups
+D1,D_Schottky,Diodes_SMD:D_SOD-323,https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30,Toshiba Semiconductor and Storage,"CUS10S30,H3F",CUS10S30H3FCT-ND,0.43,100uA leakage currrent - 30V
+D2,D_Schottky,Diodes_SMD:D_SOD-323,https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30,Toshiba Semiconductor and Storage,"CUS10S30,H3F",CUS10S30H3FCT-ND,0.43,100uA leakage currrent - 30V
+D3,D_Schottky,Diodes_SMD:D_SOD-323,https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30,Toshiba Semiconductor and Storage,"CUS10S30,H3F",CUS10S30H3FCT-ND,0.43,100uA leakage currrent - 30V
+D4,D_Schottky,Diodes_SMD:D_SOD-323,https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30,Toshiba Semiconductor and Storage,"CUS10S30,H3F",CUS10S30H3FCT-ND,0.43,100uA leakage currrent - 30V
+J4,TEST_1P,Ben_Custom:CC_Attribution,http://www.hammondmfg.com/pdf/1594C.pdf,Hammond Manufacturing,1594CBK,HM228-ND,10.26,Fitted enclosure for ducted flow over heatsink
+MN1,IRLHM630,Ben_Custom:IRLHM630,http://www.infineon.com/dgdl/irlhm630pbf.pdf?fileId=5546d462533600a401535663951725a5,Infineon Technologies,IRLHM630TRPBF,IRLHM630TRPBFCT-ND,1.05,PQFN 3.3*3.3 2.7W(a) 16W(c)
+DAC1,LTC2630-H,TO_SOT_Packages_SMD:SOT-363_SC-70-6,http://cds.linear.com/docs/en/datasheet/2630fg.pdf,Linear Technology,LTC2630ACSC6-HZ12#TRMPBF,LTC2630ACSC6-HZ12#TRMPBFCT-ND,4.65,"4.095 Vref, 12 bit, SPI"
+OA1,LTC6268-10,Ben_Custom:LTC6268IS6-10-TR,http://www.linear.com/docs/46371,Linear Technology,LTC6268IS6-10#TRMPBF,LTC6268IS6-10#TRMPBFCT-ND,8.55,1000V/us 5V rail-to-rail
+R2,5k,Resistors_SMD:R_1206,http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf,Yageo,RT1206BRD075KL,YAG5090CT-ND,0.56,Thin film
+R3,5k,Resistors_SMD:R_1206,http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf,Yageo,RT1206BRD075KL,YAG5090CT-ND,0.56,Thin film
+P1,Power,Socket_Arduino_Uno:Socket_Strip_Arduino_1x08,,,,,,
+P2,Analog,Socket_Arduino_Uno:Socket_Strip_Arduino_1x06,,,,,,
+P4,Digital,Socket_Arduino_Uno:Socket_Strip_Arduino_1x08,,,,,,
+T1,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,,,,,,
+G1,Ext. ground wire,Wire_Pads:SolderWirePad_single_1-5mmDrill,,,,,,

@@ -1,0 +1,11 @@
+---kapton tape: https://www.digikey.com/product-detail/en/3m-tc/1-2-5-5419/3M10207-ND/2649752
+
+---Solder paste: https://www.digikey.com/product-detail/en/chip-quik-inc/SMD291AX50T3/SMD291AX50T3-ND/5130159
+
+---365nm LED - https://www.digikey.com/product-detail/en/led-engin-inc/LZ1-30UV00-0000/1537-1034-ND/4976724
+
+---Thermal glue - https://www.digikey.com/product-detail/en/mg-chemicals/8329TCM-6ML/473-1220-ND/6035511
+
+Flux - https://www.digikey.com/products/en?keywords=SMD291ST2CC6-ND
+
+Wick - https://www.digikey.com/product-detail/en/chemtronics/2-5L/CW2-5-ND/2322
